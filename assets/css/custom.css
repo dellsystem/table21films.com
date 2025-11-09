@@ -1,0 +1,71 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 10rem 0 7rem;
+  text-align: center;
+}
+.section-heading {
+  margin-bottom: 3rem;
+}
+.section-description {
+  margin-bottom: 1.2rem;
+}
+.section-description {
+  font-size: 1.5em;
+  opacity: 0.9;
+}
+.section-subheading {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.section-content {
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.splash {
+  background-image: url('../img/bg.jpg');
+  background-position: bottom;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .section {
+    padding: 14rem 0 15rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0;
+  }
+  .splash {
+    padding: 24rem 0;
+  }
+}
