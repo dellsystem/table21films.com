@@ -29,6 +29,10 @@
   font-size: 1.3em;
 }
 
+.section.past {
+  background: #EEE;
+}
+
 .splash {
   background-image: url('../img/bg.jpg');
   background-position: bottom;
