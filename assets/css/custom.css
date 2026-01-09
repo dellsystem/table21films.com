@@ -33,12 +33,16 @@
   background: #EEE;
 }
 
-.splash {
+.splash, .footer {
   background-image: url('../img/bg.jpg');
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
+  background-attachment: fixed;
   color: #fff;
   padding-bottom: 5rem;
+}
+.splash .section-description {
+  font-weight: bold;
 }
 
 
