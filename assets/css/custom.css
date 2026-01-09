@@ -37,6 +37,7 @@
   background-image: url('../img/bg.jpg');
   background-position: top;
   background-size: cover;
+  -webkit-background-size: cover;
   background-attachment: fixed;
   color: #fff;
   padding-bottom: 5rem;
